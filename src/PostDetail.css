@@ -1,0 +1,143 @@
+.detail-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: var(--bg-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    animation: fadeIn var(--transition-speed) ease-out;
+  }
+  .detail-container h2 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+  }
+  .detail-container p {
+    margin-bottom: 1rem;
+  }
+  .detail-container img {
+    margin: 1rem 0;
+    border: 1px solid var(--secondary-color);
+  }
+  .detail-container .actions button {
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: var(--border-radius);
+    font-family: var(--font-heading);
+    transition: background var(--transition-speed);
+  }
+  .detail-container .actions button.upvote {
+    background: green;
+    color: white;
+  }
+  .detail-container .actions button.edit {
+    background: blue;
+    color: white;
+  }
+  .detail-container .actions button.delete {
+    background: red;
+    color: white;
+  }
+  .detail-container .actions button:hover {
+    opacity: 0.9;
+  }
+  .comments {
+    margin-top: 2rem;
+  }
+  .comments .comment {
+    position: relative;
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--secondary-color);
+  }
+  .comments .comment button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    background: transparent;
+    border: none;
+    color: var(--accent-color);
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  .comments form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: var(--border-radius);
+    resize: vertical;
+  }
+  .comments form button {
+    margin-top: 0.5rem;
+    background: var(--primary-color);
+    color: var(--bg-color);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: var(--border-radius);
+    font-family: var(--font-heading);
+  }
+  
+
+  .detail-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+  }
+  
+  .actions button {
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .actions .upvote {
+    background-color: green;
+    color: white;
+    border: none;
+  }
+  
+  .actions .edit {
+    background-color: blue;
+    color: white;
+    border: none;
+  }
+  
+  .actions .delete {
+    background-color: red;
+    color: white;
+    border: none;
+  }
+  
+  .comments {
+    margin-top: 2rem;
+  }
+  
+  .comment {
+    background-color: #f3f3f3;
+    padding: 0.75rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    position: relative;
+  }
+  
+  .comment button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: none;
+    background: none;
+    color: red;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,16 @@
+/* App.css */
+.page-content {
+  max-width: 1200px;  
+  margin: 0 auto;    
+  padding: 20px;     
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
